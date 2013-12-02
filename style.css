@@ -1,0 +1,282 @@
+html,body{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+#container{
+	position: absolute;
+	width: 3072px;
+	height: 2048px;
+	left:0px;
+	top:0px;
+}
+
+.hoja{
+	position: absolute;
+	width: 1536px;
+	height: 2048px;	
+}
+
+.elem{
+	position:absolute;
+	opacity: 1;
+}
+
+
+.btn_audio{
+	width: 106px;
+	height: 106px;
+	background: url("imagenes/btn_audio.png");
+}				
+.btn_audio.active{
+	background: url("imagenes/btn_audio_active.png");
+}		
+.btn_audio.on{
+	background: url("imagenes/btn_audio_on.png");
+}	
+.btn_audio.on.active{
+	background: url("imagenes/btn_audio_on_active.png");
+}			
+
+.btn_video{
+	width: 113px;
+	height: 113px;
+	background: url("imagenes/btn_video.png");
+}			
+
+.btn_lupa{
+	width: 110px;
+	height: 110px;
+	background: url("imagenes/btn_lupa.png");
+}			
+
+.btn_accion{
+	width: 110px;
+	height: 110px;
+	background: url("imagenes/btn_accion.png");
+}		
+
+.audiobar_6{
+	width: 743px;
+	height: 48px;
+	background: url("imagenes/audiobar_6_off.png");
+}
+.audiobar_6.active{
+	background: url("imagenes/audiobar_6_on.png");
+}
+
+.audiobar_13_big{
+	width: 1362px;
+	height: 48px;
+	background: url("imagenes/audiobar_13_big_off.png");
+}
+.audiobar_13_big.active{
+	background: url("imagenes/audiobar_13_big_on.png");
+}
+
+.audiobar_13_small{
+	width: 543px;
+	height: 48px;
+	background: url("imagenes/audiobar_13_small_off.png");
+}
+.audiobar_13_small.active{
+	background: url("imagenes/audiobar_13_small_on.png");
+}
+
+.transcription{
+	width: 232px;
+	height: 100px;
+	background: url("imagenes/transcription_off.png");
+}
+.transcription.active{
+	background: url("imagenes/transcription_on.png");
+}		
+
+.transcriptionbox_6{
+	display: none;
+	width: 417px;
+	height: 565px;
+	background: url("imagenes/transcriptionbox_6.png");
+}
+
+.transcriptionbox_13{
+	display: none;
+	width: 417px;
+	height: 565px;
+	background: url("imagenes/transcriptionbox_13_empty.png");
+}
+
+.transcriptionbox_13_content{
+	position: absolute;
+	top: 40px;
+	left: 30px;
+	width: 370px;
+	height: 460px;
+	overflow: scroll;
+}
+
+.transcriptionbox_13_content_image{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 350px;
+	height: 673px;
+	background: url("imagenes/transcriptionbox_13_content.png");
+}
+
+.animacion{
+	position:absolute;
+	width: 1536px;
+	height: 2048px;
+	top: 2px;
+	background-color: white;
+	z-index: 20;
+}
+
+.close{
+	position: relative;
+	top: 5px;
+	left: 0px;
+	width: 60px;
+	height: 60px;
+	background: url("imagenes/close-icon.png");	
+	z-index: 1000;
+}
+
+
+#hoja_6{
+	left:0px;
+	top:0px;
+	background: url("imagenes/hoja_6sin.jpg");
+}
+	#btn_lupa_6_1{
+		left: 1269px;
+		top: 1278px;
+	}	
+	#btn_accion_6_1{
+		left: 1385px;
+		top: 340px;
+	}	
+	#btn_audio_6_1{
+		left: 140px;
+		top: 246px;
+	}	
+	#audiobar_6_1{
+		left: 370px;
+		top: 308px;
+	}
+	#audio_6_1b{
+		position: absolute;
+		left: 374px;
+		top: 325px;
+		width: 744px;
+	}
+	#transcription_6_1{
+		left: 1137px;
+		top: 260px;
+	}		
+	#transcriptionbox_6_1{
+		left: 1048px;
+		top: 378px;
+	}	
+	
+#hoja_13{
+	left:1536px;
+	top:0px;
+	background: url("imagenes/hoja_13sin.jpg");
+}			
+	#btn_audio_13_1{
+		left: 123px;
+		top: 236px;
+	}	
+	#btn_audio_13_2{
+		left: 129px;
+		top: 874px;
+	}	
+	#btn_audio_13_3{
+		left: 958px;
+		top: 874px;
+	}	
+	#btn_audio_13_4{
+		left: 125px;
+		top: 1106px;
+	}	
+	#audiobar_13_1 {
+		left: 83px;
+		top: 814px;
+	}
+	#audio_13_1b{
+		position:absolute;
+		width: 1362px;
+		left: 85px;
+		top: 830px;
+	}	
+	#audiobar_13_3 {
+		left: 906px;
+		top: 1083px;
+	}
+	#audio_13_3b{
+		left: 908px;
+		position: absolute;
+		top: 1100px;
+		width: 544px;
+	}	
+	#audiobar_13_4 {
+		left: 906px;
+		top: 1226px;
+	}
+	#audio_13_4b{
+		left: 908px;
+		position: absolute;
+		top: 1242px;
+		width: 544px;
+	}	
+	#btn_video_13_1{
+		left: 745px;
+		top: 217px;
+	}			
+	
+	#btn_lupa_13_1{
+		left: 715px;
+		top: 887px;
+	}	
+	#transcription_13_1{
+		left: 734px;
+		top: 1825px;
+		z-index:12;
+	}		
+	#transcriptionbox_13_1{
+		left: 614px;
+		top: 1251px;
+		z-index:11;
+	}	
+	
+	#video_13_1_container{
+		position: absolute;
+		display: none;
+		top: 0px;
+		left: 0px;
+		width: 1536px;
+		height: 2048px; 		
+		background-color: #000;
+		z-index: 20;
+	}
+	#video_13_1{
+		position: absolute;
+		top: 50px;
+		left: 0px;
+		width: 1536px;
+		height: 1648px; 		
+		background-color: #000;
+		z-index: 21;
+	}
+	#close_13_video{
+		position: relative;
+		top: 5px;
+		left: 0px;
+		width: 60px;
+		height: 60px;
+		background: url("imagenes/close-icon.png");	
+		z-index: 1000;
+	}

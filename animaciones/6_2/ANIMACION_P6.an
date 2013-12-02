@@ -1,0 +1,79 @@
+{
+
+	"PubChromeFrameInstallerPrompt":"none",
+	"PubUseChromeFrameInstaller":"false",
+	"ModelData":"{\
+\"stage62\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+            \"ElementKeyframes\": {\
+                \"${_s1131dynamic}\": [], \
+                \"${_s1141dynamic}\": [], \
+                \"${_s1121dynamic}\": [], \
+                \"${_Stage62}\": [], \
+                \"${_s1a}\": [], \
+                \"${_s1111dynamic}\": []\
+            }\
+      }\
+   }},\
+\"Precargador\": {\
+   \"timelines\": {\
+\
+   }},\
+\"Nivel inferior\": {\
+   \"timelines\": {\
+\
+   }}\
+}",
+	"pref__general__FilterNonAnimatedElements":"false",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"symbol_stage62":{
+		"element_${_s1121dynamic}":{
+			"timelineColor2":"0x4fa275",
+			"invisible":"false",
+			"timelineColor":"0x50bd82",
+			"animationEnabled":"true",
+			"timelineColor3":"0x456a55"},
+		"dummyStage62ParentHeight":"1024px",
+		"element_${_s1131dynamic}":{
+			"timelineColor2":"0x1aa38f",
+			"invisible":"false",
+			"timelineColor":"0x00bda4",
+			"animationEnabled":"true",
+			"timelineColor3":"0x2a6a61"},
+		"defaultStage62ParentHeight":"1024px",
+		"element_${_s1141dynamic}":{
+			"timelineColor2":"0x168c84",
+			"invisible":"false",
+			"timelineColor":"0x00a096",
+			"animationEnabled":"true",
+			"timelineColor3":"0x2a605c"},
+		"element_${_s1a}":{
+			"timelineColor2":"0x326a96",
+			"invisible":"true",
+			"timelineColor":"0x2f73ad",
+			"locked":"false",
+			"animationEnabled":"false",
+			"timelineColor3":"0x385063"},
+		"element_${_s1111dynamic}":{
+			"timelineColor2":"0x81aa62",
+			"invisible":"false",
+			"timelineColor":"0x91c767",
+			"locked":"false",
+			"timelineColor3":"0x5b6c4d"},
+		"dummyStage62ParentWidth":"768px",
+		"element_${_Stage62}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79"},
+		"defaultStage62ParentWidth":"768px"},
+	"TransitionIdCounter":"21",
+	"CompZoomFactor":"100",
+	"Stage62ZoomFactor":"50",
+	"pixelsPerMs":"0.2",
+	"PubStaticHTMLContent":"true",
+	"usedBOM":"false",
+	"nextElementColorIndex":"7",
+	"stage62-Default Timeline_playhead_ms":"2250",
+	"HTMLFileName":"ANIMACION_P6.html",
+	"viewStartY":"0"}
